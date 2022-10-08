@@ -1,0 +1,48 @@
+.sect{
+background: url(../img/banner.png) no-repeat center/cover;
+height: 400px;
+position: relative;
+
+}
+.text__bann{
+display: flex;
+flex-direction: column;
+text-align: center;
+padding: 98px 0px;
+}
+h1{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #FFFFFF;
+
+}
+.banner__pp{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 55px;
+    color: #FFFFFF;
+    position: relative;
+
+}
+.p__banner{
+    font-family: 'Vollkorn' , sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+  color: #FFFFFF;
+    margin-top: 55px;
+}
+.banner__pp::after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: #fff;
+    bottom: -28px;
+    transform: translateX(-50%);
+    left: 50%;   
+
+}

@@ -1,0 +1,41 @@
+.back{
+    background: #FEFEC9;
+
+}
+.back__wrap{
+display: flex;
+flex-direction:column ;
+justify-content: center;
+align-items: center;
+padding-top: 60px;
+gap: 34px;
+padding-bottom: 52px;
+}
+.p__back{
+    font-family: 'Vollkorn' , sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 25px;
+text-align: center;
+color:  #47474F;
+
+
+}
+.btn__back{
+    font-family: 'Vollkorn' , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+   color: #47474F;
+padding: 13px 33px;
+background: transparent;
+border: 1px solid black;
+
+}
+.krest{
+position: absolute;
+left: 49%;
+top: 94%;
+
+
+}

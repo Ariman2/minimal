@@ -1,0 +1,35 @@
+.nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 18px;
+padding-bottom: 18px;
+
+}
+.list{
+display: flex;
+align-items: center;
+gap: 18px;
+
+}
+.menu{
+display: flex;
+align-items: center;
+gap: 34px;
+}
+.list__p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #333333;
+
+    
+}
+.menu__link{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #404040;
+}
