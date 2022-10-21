@@ -39,3 +39,19 @@ top: 94%;
 
 
 }
+@media screen and (max-width:768px) {
+    .krest{
+    left: 46%;
+    }
+    .p__back{
+    width: 500px;
+    }
+}
+@media screen and (max-width:425px) {
+ .p__back{
+width: 350px;
+ }
+ .krest{
+left: 42%;
+ }   
+}

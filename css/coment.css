@@ -53,3 +53,9 @@ color:#ABABAB;
 margin-top: 10px;
 text-transform: uppercase;
 }
+@media screen and (max-width:768px) {
+    .commets{
+    flex-wrap: wrap;
+    gap: 100px;
+    }
+}

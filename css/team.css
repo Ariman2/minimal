@@ -55,3 +55,9 @@ color: #333;
 display: flex;
 gap: 21px;
 }
+@media screen and (max-width:1024px) {
+    .team__cards{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}

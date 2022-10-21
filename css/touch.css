@@ -1,6 +1,6 @@
 .touch{
 background: url(../img/back.png) no-repeat center/cover;
-height: 517px;
+height: 556px;
 
 }
 .touch__wrap{
@@ -100,4 +100,9 @@ color: #212121;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+@media screen and (max-width:425px) {
+    .touch__wrap{
+    padding-bottom: 20px;
+    }
 }

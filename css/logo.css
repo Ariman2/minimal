@@ -33,3 +33,15 @@ gap: 34px;
     line-height: 20px;
     color: #404040;
 }
+@media screen and (max-width:1024px) {
+    .nav{
+    justify-content: space-evenly;
+    }
+  
+}
+@media screen and (max-width:425px) {
+    .nav{
+    flex-direction: column;
+    }
+
+}
